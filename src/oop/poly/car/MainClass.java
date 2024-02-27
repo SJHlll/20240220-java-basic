@@ -37,9 +37,21 @@ public class MainClass {
         kim.buyCar("Tesla");
         kim.buyCar("Porsche");
 
-        Car myTesla = kim.buyCar("Tesla");
-        myTesla.run();
+//        Car myTesla = kim.buyCar("Tesla");
+//        myTesla.run();
+//        Tesla t = (Tesla) myTesla;
+//        t.activeAutopilot();
 
+        Tesla myTesla = (Tesla) kim.buyCar("Tesla");
+        myTesla.run();
+        myTesla.activeAutopilot();
+
+        System.out.println("===================================");
+
+        CarShop shop = new CarShop();
+        shop.carPrice(s2);
+        shop.carPrice(t4);
+        shop.carPrice(p1);
 
 
     }
