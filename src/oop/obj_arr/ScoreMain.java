@@ -44,12 +44,12 @@ public class ScoreMain {
             int math = sc.nextInt();
             System.out.println("-------------------------------------");
 
-            student[i] = new Score();
-            student[i].setName(name);
-            student[i].setKor(kor);
-            student[i].setEng(eng);
-            student[i].setMath(math);
-            student[i].setScoreAvg();
+            student[i] = new Score(name, kor, eng, math);
+//            student[i].setName(name);
+//            student[i].setKor(kor);
+//            student[i].setEng(eng);
+//            student[i].setMath(math);
+//            student[i].setScoreAvg();
         }
 
         System.out.println("-------------------------------------");
