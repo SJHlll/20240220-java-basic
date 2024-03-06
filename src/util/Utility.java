@@ -4,8 +4,13 @@ import java.util.Scanner;
 
 public class Utility {
 
-    static Scanner sc = new Scanner(System.in);
+    public static final String FILE_PATH = "C:/Myworkspace/music";
 
+    static Scanner sc;
+
+    static {
+        sc = new Scanner(System.in);
+    }
 
 //    줄 긋는 메서드
     public static void makeLine() {
