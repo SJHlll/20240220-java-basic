@@ -1,6 +1,6 @@
 package video.user.repository;
 
-import video.user.service.domain.User;
+import video.user.domain.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;

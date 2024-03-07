@@ -1,4 +1,4 @@
-package video.user.service.domain;
+package video.user.domain;
 
 public class User {
 

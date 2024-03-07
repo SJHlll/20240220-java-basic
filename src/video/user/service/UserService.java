@@ -1,13 +1,10 @@
 package video.user.service;
 
 
-import oop.constructor.Phone;
-import oop.inter.bad.Join;
 import video.common.AppService;
-import video.ui.AppUi;
 import video.user.repository.UserRepository;
-import video.user.service.domain.Grade;
-import video.user.service.domain.User;
+import video.user.domain.Grade;
+import video.user.domain.User;
 
 import java.util.ArrayList;
 import java.util.List;
