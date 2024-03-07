@@ -37,4 +37,8 @@ public class UserRepository {
         return userDatabase.remove(delUserNum);
 
     }
+
+    public User findUserbyNumber(int userNumber) {
+        return userDatabase.get(userNumber);
+    }
 }
