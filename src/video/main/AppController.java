@@ -30,7 +30,11 @@ public class AppController {
 
         }
 
-        service.start();
+        try {
+            service.start();
+        } catch (Exception e) {
+            System.out.println("** 다시 입력해주세요. **");
+        }
     }
 
 }
